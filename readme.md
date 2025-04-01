@@ -10,7 +10,7 @@ Este guia explica como configurar e rodar tanto o backend quanto o frontend do p
 
 ```bash
 git clone https://github.com/Gustavpip/teste-tecnico-gustavo-pereira-batista.git
-cd backend
+cd teste-tecnico-gustavo-pereira-batista/backend
 ```
 
 ### 2. Criar o Arquivo `.env`
@@ -70,7 +70,7 @@ O backend estará rodando na porta **3005**.
 ### 1. Acessar o Diretório do Frontend
 
 ```bash
-cd frontend
+cd teste-tecnico-gustavo-pereira-batista/frontend
 ```
 
 ### 2. Criar o Arquivo `.env`
