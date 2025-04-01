@@ -18,7 +18,7 @@ export class LogRepository implements ILogRepository {
       })
       .returning("*");
 
-    const newClient = insertedRows[0] as LogData;
-    return newClient;
+    const newLog = insertedRows[0] as LogData;
+    return newLog;
   }
 }

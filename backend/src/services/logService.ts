@@ -1,5 +1,5 @@
 import { ILogBuilder } from "../interfaces/logs";
-import { LogBuilder } from "../builder/logBuilder";
+
 import {
   ILogRepository,
   ILogService,

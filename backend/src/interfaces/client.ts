@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 import { CreateClientDTO } from "../dtos/client/client";
 import { Client } from "../types/client";
 import { CreateLog, LogData } from "src/types/log";
-import { UserDTO } from "src/dtos/user/user";
+
 import { AxiosResponse } from "axios";
 
 export interface IClientController {
