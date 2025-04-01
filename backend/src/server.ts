@@ -11,7 +11,7 @@ config();
 const app = express();
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL, // Tarefa: Especificar um domínio ou IP
+  origin: process.env.FRONTEND_URL,
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type, Authorization",
   credentials: true,

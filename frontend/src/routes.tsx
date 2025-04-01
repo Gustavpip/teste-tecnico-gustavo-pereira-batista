@@ -1,17 +1,19 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from "react-router-dom";
 
-import { ClientList } from './pages/ClientList';
-import { ClientRegister } from './pages/ClientRegister';
-import { DashboardClient } from './pages/Dashboard';
+import { ClientList } from "./pages/ClientList";
+import { ClientRegister } from "./pages/ClientRegister";
+import { DashboardClient } from "./pages/Dashboard";
 
 const AppRoutes = () => {
   return (
     <Routes>
+      <Route path="/" element={<Navigate to="/clientes" />} />
+
       <Route
         path="/clientes"
         element={
           <DashboardClient>
-            <ClientList />{' '}
+            <ClientList />
           </DashboardClient>
         }
       />
@@ -20,7 +22,7 @@ const AppRoutes = () => {
         path="/clientes/cadastro"
         element={
           <DashboardClient>
-            <ClientRegister />{' '}
+            <ClientRegister />
           </DashboardClient>
         }
       />
