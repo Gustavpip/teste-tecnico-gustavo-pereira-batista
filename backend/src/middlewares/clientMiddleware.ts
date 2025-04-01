@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { createClientSchema } from "../joi-schemas/schemas";
 
-export class CreateUserMiddleware {
+export class CreateClientMiddleware {
   public receive() {
     return this.validate;
   }
