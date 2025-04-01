@@ -40,7 +40,7 @@ API_URL_BASE=https://randomuser.me/api/
 O projeto depende de um banco de dados PostgreSQL. Para subir os containers necessários, execute:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 4. Instalar Dependências
